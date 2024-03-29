@@ -9,7 +9,7 @@ from aiogram.utils import executor
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from bs4 import BeautifulSoup
 
-bot = Bot(token='6285896856:AAGltn-ZBPJe4xakA3XOkOIQY1Ltadim5ws')
+bot = Bot(token='YOUR TOKEN')
 dp = Dispatcher(bot)
 
 weather_now_button = KeyboardButton("Погода сейчас")
